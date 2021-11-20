@@ -98,7 +98,7 @@ function Signup() {
 
                 <div className="formField">
                     <button className="formFieldButton">Sign Up</button>{"   "}
-                    <Link to="/sign-in" className="formFieldLink">
+                    <Link to="/" className="formFieldLink">
                         I'm already member
                     </Link>
                 </div>

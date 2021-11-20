@@ -12,7 +12,7 @@ function App() {
         <div className="appForm">
           <div className="pageSwitcher">
             <NavLink
-              to="/sign-in"
+              to="/"
               activeClassName="pageSwitcherItem-active"
               className="pageSwitcherItem"
             >
@@ -20,7 +20,7 @@ function App() {
               </NavLink>
             <NavLink
               exact
-              to="/"
+              to="/sign-up"
               activeClassName="pageSwitcherItem-active"
               className="pageSwitcherItem"
             >
@@ -30,7 +30,7 @@ function App() {
 
           <div className="formTitle">
             <NavLink
-              to="/sign-in"
+              to="/"
               activeClassName="formTitleLink-active"
               className="formTitleLink"
             >
@@ -39,7 +39,7 @@ function App() {
               or{" "}
             <NavLink
               exact
-              to="/"
+              to="/sign-up"
               activeClassName="formTitleLink-active"
               className="formTitleLink"
             >
@@ -47,8 +47,8 @@ function App() {
               </NavLink>
           </div>
           <Routes>
-            <Route exact path="/sign-in" element={<Login/>} />
-            <Route path="/" element={<Signup/>} />
+            <Route exact path="/" element={<Login/>} />
+            <Route path="/sign-up" element={<Signup/>} />
           </Routes>
         </div>
       </div>
