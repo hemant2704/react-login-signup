@@ -41,7 +41,7 @@ function Login() {
                         value={values.email}
                     />
                     <br/>
-                    {submitted && !values.name ?<span style={{color:"red"}}>Please enter email</span>:null}
+                    {submitted && !values.email ?<span style={{color:"red"}}>Please enter email</span>:null}
 
                 </div>
 
@@ -59,7 +59,7 @@ function Login() {
                         value={values.password}
                     />
                     <br/>
-                    {submitted && !values.name ?<span style={{color:"red"}}>Please enter password</span>:null}
+                    {submitted && !values.password ?<span style={{color:"red"}}>Please enter password</span>:null}
 
                 </div>
 
