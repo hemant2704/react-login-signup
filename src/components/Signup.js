@@ -81,21 +81,6 @@ function Signup() {
 
                 </div>
 
-                {/* <div className="formField">
-                    <label className="formFieldCheckboxLabel">
-                        <input
-                            className="formFieldCheckbox"
-                            type="checkbox"
-                            name="hasAgreed"
-
-                        />{" "}
-                    I agree all statements in{" "}
-                        <a href="null" className="formFieldTermsLink">
-                            terms of service
-                    </a>
-                    </label>
-                </div> */}
-
                 <div className="formField">
                     <button className="formFieldButton">Sign Up</button>{"   "}
                     <Link to="/" className="formFieldLink">
